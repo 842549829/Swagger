@@ -18,9 +18,9 @@ namespace SwaggerWebApi2.Controllers
         /// </summary>
         /// <param name="person">人的信息</param>
         /// <returns>结果</returns>
-        public string PostPeoples(Person person)
+        public Person PostPeoples(Person person)
         {
-            return "ok";
+            return person;
         }
     }
 }
